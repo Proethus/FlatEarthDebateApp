@@ -1,0 +1,17 @@
+﻿<Window x:Class="FlatEarthDebateApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlatEarthDebateApp"
+        mc:Ignorable="d"
+        Title="Lapos Föld Vita App" Height="362.137" Width="390.37"
+        Background="WhiteSmoke">
+    <Grid Margin="10,0,2,0">
+        <Label Content="Várom a bizonyítékodat!&#xD;&#xA;" HorizontalAlignment="Left" Margin="24,27,0,0" VerticalAlignment="Top" Width="186" Height="29" FontSize="16px"/>
+        <TextBox Name="Evidence" HorizontalAlignment="Left" Height="148" Margin="24,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="311" FontSize="12px"/>
+        <Button Content="Bizonyíték beküldése&#xD;&#xA;" HorizontalAlignment="Left" Margin="192,269,0,0" VerticalAlignment="Top" Width="143" Height="24" FontSize="14px" Click="Button_Click"/>
+        <Label Content="Bizonyíték:" HorizontalAlignment="Left" Margin="24,68,0,0" VerticalAlignment="Top" Width="89" FontSize="14px"/>
+
+    </Grid>
+</Window>
